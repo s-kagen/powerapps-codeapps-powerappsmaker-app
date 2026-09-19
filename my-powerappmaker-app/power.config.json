@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "appId": "c47a9305-e7c8-49e2-b172-b576fd99c02c",
+  "appDisplayName": "Power Apps 開発者アプリ",
+  "region": "prod",
+  "environmentId": "17423f17-edb6-e0b7-b168-1b149c4b4509",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {
+    "2299d305-f1cc-4748-bdbe-e3396f866c71": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_powerappsforappmakers",
+      "displayName": "Power Apps for Makers",
+      "dataSources": [
+        "powerappsforappmakers"
+      ],
+      "dataSets": {}
+    }
+  },
+  "databaseReferences": {}
+}
